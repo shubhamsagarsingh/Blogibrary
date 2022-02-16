@@ -1,0 +1,20 @@
+{
+  "name": "mern-api-game5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "concurrently": "concurrently \"npm start --prefix client\" \"nodemon run server.js\"",
+    "client": "npm start --prefix client",
+    "server": "nodemon run server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
