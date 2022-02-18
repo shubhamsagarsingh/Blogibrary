@@ -1,15 +1,20 @@
-import './_Signin.scss'
+import './_Signup.scss'
 
 
 
 
-const Signin = () => {
+const Signup = () => {
     return(
-        <div className='e-Signin__wrapper o-responsiveWrapper'>
-            <div className='b-Signin o-responsiveBlock'>
-                <div className='e-Signin__container'>
-                    <h1>Signin Page</h1>
+        <div className='e-Signup__wrapper o-responsiveWrapper'>
+            <div className='b-Signup o-responsiveBlock'>
+                <div className='e-Signup__container'>
+                    <h1>Signup Page</h1>
                     <form>
+                        <section>
+                            <label>Name</label>
+                            <input type='text'/>
+                        </section>
+
                         <section>
                             <label>Email</label>
                             <input type='email'/>
@@ -29,4 +34,5 @@ const Signin = () => {
 
 
 
-export default Signin
+
+export default Signup

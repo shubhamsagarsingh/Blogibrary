@@ -1,13 +1,20 @@
+.e-Home__wrapper {
+  // border: 1px solid red;
+}
+
 .b-Home {
-  height: 100%;
+  // border: 1px solid red;
 }
 
 .e-Home {
-  &__wrapper {
-    width: 100%;
-  }
-
   &__container {
-    //
+    // border: 1px solid red;
+    // min-height: 100%;
+
+    h1 {
+      height: 400rem;
+    }
   }
 }
+
+//media queries-------------------------------------------------------

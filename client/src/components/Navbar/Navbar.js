@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
     return(
         <div className='e-Navbar__wrapper'>
-            <div className='b-Navbar o-responsiveWidth'>
+            <div className='b-Navbar o-responsiveBlock'>
                 <div className='e-Navbar__container'>
                     <h1>Logo</h1>
                     <input type='text'/>

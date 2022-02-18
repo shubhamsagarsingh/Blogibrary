@@ -1,6 +1,8 @@
 import { Switch, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Home from './pages/Home/Home'
+import Signin from './pages/Signin/Signin'
+import Signup from './pages/Signup/Signup'
 
 
 
@@ -11,7 +13,9 @@ const App = () => {
     <>
     <Navbar/>
       <Switch>
-        <Route path='/' component={Home}/>
+        <Route exact path='/' component={Home}/>
+        <Route exact path='/signin' component={Signin}/>
+        <Route exact path='/signup' component={Signup}/>
       </Switch>
     </>
   )

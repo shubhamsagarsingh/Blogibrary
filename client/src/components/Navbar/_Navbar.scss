@@ -1,16 +1,19 @@
+.e-Navbar__wrapper {
+  box-shadow: 2px 4px 8px lightgray;
+  background: #fff;
+  width: 100%;
+  height: 170px;
+  position: fixed;
+  z-index: 100;
+}
+
 .b-Navbar {
-  height: 100%;
 }
 
 .e-Navbar {
-  &__wrapper {
-    box-shadow: 2px 4px 8px lightgray;
-    width: 100%;
-    height: 170px;
-  }
-
   &__container {
-    height: 100%;
+    border: 1px solid red;
+    height: 170px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -63,6 +66,7 @@
       justify-content: space-between;
       align-items: center;
       gap: 1rem;
+      height: 80px;
 
       h1 {
         text-align: start;
