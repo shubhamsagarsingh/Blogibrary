@@ -8,22 +8,24 @@ const Signup = () => {
         <div className='e-Signup__wrapper o-responsiveWrapper'>
             <div className='b-Signup o-responsiveBlock'>
                 <div className='e-Signup__container'>
-                    <h1>Signup Page</h1>
+                    <h1>SIGNUP</h1>
                     <form>
                         <section>
                             <label>Name</label>
-                            <input type='text'/>
+                            <input type='text' autoComplete='off'/>
                         </section>
 
                         <section>
                             <label>Email</label>
-                            <input type='email'/>
+                            <input type='email' autoComplete='off'/>
                         </section>
 
                         <section>
                             <label>Password</label>
-                            <input type='password'/>
+                            <input type='password' autoComplete='off'/>
                         </section>
+
+                        <button>SUBMIT</button>
                     </form>
                 </div>
             </div>
