@@ -1,22 +1,13 @@
 const express = require('express')
 const router = express.Router()
-const User = require('../models/user')
+const { Signup, Signin } = require('../controllers/auth')
 
 
 
-router.get('/', (req, res) => {
-    res.send('hello node')
-})
 
-router.post('/signup', (req, res) => {
-    const user = new User(req.body)
+router.post('/signup', Signup)
+router.post('/signin', Signin)
 
-    user.save()
-    .then((data) => {
-        res.send(data)
-    })
-    .catch((error) => console.log(error))
-})
 
 
 
