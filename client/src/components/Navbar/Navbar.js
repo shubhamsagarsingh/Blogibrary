@@ -22,7 +22,7 @@ const Navbar = () => {
                             <>
                                 <li><NavLink exact activeClassName='activeClassName' to='/userProfile'>USERPROFILE</NavLink></li>
                                 <li><NavLink exact activeClassName='activeClassName' to='/userTodos'>USERTODOS</NavLink></li>
-                                <li><button onClick={() => {dispatch(removeToken())}}>SIGNOUT</button></li>
+                                <li><NavLink exact activeClassName='activeClassName' to='#'><button onClick={() => {dispatch(removeToken())}}>SIGNOUT</button></NavLink></li>
                             </>:
                             <>
                                 <li><NavLink exact activeClassName='activeClassName' to='/signin'>SIGNIN</NavLink></li>

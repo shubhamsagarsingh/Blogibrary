@@ -43,6 +43,20 @@
           padding: 0 1rem;
           display: flex;
           align-items: center;
+
+          button {
+            border-radius: 8px;
+            padding: 0.5rem;
+            background: rgb(37, 113, 255);
+            color: #fff;
+            border: none;
+            font-size: 1rem;
+          }
+
+          button:hover {
+            background: rgb(247, 91, 91);
+            transform: scale(1.1);
+          }
         }
 
         a:hover {
